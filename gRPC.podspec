@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
     'CLANG_CXX_LANGUAGE_STANDARD' => 'c++14',
   }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.1'
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '10.0'
   s.watchos.deployment_target = '4.0'
